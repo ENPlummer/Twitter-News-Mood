@@ -1,5 +1,10 @@
+# Twitter News Mood
 
-# Analysis
+In this project, I analyzed the sentiment tweets of tweets from the Twitter accounts of major news organizations. To obtain the data for this analysis I pulled 100 most recent tweets each from BBC, CBS, CNN, Fox and the New York times using Twitter’s Tweepy API. I then analyzed the sentiment of each tweet using the Vader library. Once I had the 100 most recent tweets from each news organization I converted the Python dictionary where the tweets were stored into a data frame using Pandas. I then exported that file to a csv file. 
+
+Once I had all my data I used first used Matplotlib to produce a scatter plot of the sentiments of every tweet I pulled using the Tweepy API. I then aggregated the data to find the overall sentiment of each news organization’s tweets. I then created a bar graph using Matplotlib. The following are the insights I gained from my analysis:
+
+## Analysis
 
 1. CNN and Fox News had the most negative Vader sentiment analysis.
 2. The New York Times had a slightly negative score of -0.02. Even though its score is slightly negative, the New York times had the scores closes to zero. It is the news outlet with the closest to neutral sentiment.
