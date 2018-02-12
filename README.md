@@ -7,7 +7,7 @@ Once I had all my data I used first used Matplotlib to produce a scatter plot of
 ## Analysis
 
 1. CNN and Fox News had the most negative Vader sentiment analysis.
-2. The New York Times had a slightly negative score of -0.02. Even though its score is slightly negative, the New York times had the scores closes to zero. It is the news outlet with the closest to neutral sentiment.
+2. The New York Times had a slightly negative score of -0.02. Even though its score is slightly negative, the New York Times had the scores closes to zero. It is the news outlet with the closest to neutral sentiment.
 3. While both the BBC and CBS had an overall positive Vader scores CBS had the highest score with 0.2. the BBC had 0.09.
 4. The validity of the Vader analysis is questionable. There are tweets of negative events that have neutral Vader scores instead of expected negative Vader scores.
 5. The Vader analysis on news organizations is highly dependent on they type of news happens on a particular day. A more fair analysis would analyze a larger sample of tweets over a larger period of time.
